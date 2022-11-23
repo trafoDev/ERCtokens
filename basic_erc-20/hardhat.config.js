@@ -6,9 +6,7 @@ module.exports = {
   networks:  {
     mumbai: {
       url: 'https://polygon-testnet.public.blastapi.io',
-//      accounts: [process.env.TEST_WALLET_PRIVATE_KEY]
       accounts: [process.env.MY_WALLET_PRIVATE_KEY]
-//      accounts: [process.env.MY_WALLET_PRIVATE_KEY,process.env.TEST_WALLET_PRIVATE_KEY]
 }
   }
 };
