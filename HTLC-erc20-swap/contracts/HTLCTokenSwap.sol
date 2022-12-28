@@ -21,7 +21,7 @@ contract HTLCTokenSwap {
         bool claimed;               // Boolean to check if the token has been claimed
     }
 
-    event SwapCreated( uint256 swapId, address payable sender, address payable recipient, address tokenAddress, uint256 amount, bytes32 hashlock, uint256 timelock);    
+    event SwapCreated( uint256 swapId, address payable recipient, address payable sender, address tokenAddress, uint256 amount, bytes32 hashlock, uint256 timelock);    
     event SwapFinalized(uint256 swapId, string secret);
     event SwapCanceled(uint256 swapId);
 
